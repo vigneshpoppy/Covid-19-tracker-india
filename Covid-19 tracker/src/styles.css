@@ -1,0 +1,61 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  min-height: 700px;
+  min-width: 100%;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+margin: 0px 0px;
+padding: 0px 0px;
+
+}
+hr.new1 {
+  border-top: 1px dashed #045bc4;
+}
+.card{
+  box-sizing: border-box;
+width: 300px;
+
+box-shadow: 0px 4px 5px 2px #c2c1be;
+background-color: white;
+align-content: center;
+transition:  transform 1s;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  
+  margin: 50px 30px;
+  
+
+}
+.header{
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  color: white;
+height: 150px;
+text-align: center;
+margin-top: 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.title:hover{
+  filter: brightness(75%);
+cursor: pointer;
+}
+
+.header h1{
+  transition:  transform 1s;
+
+  
+}
+.header h1:hover{
+  color: black;
+  transform: scale(1.1);
+  
+  }
+  .card:hover{
+    transform: scale(1.1);
+  }
